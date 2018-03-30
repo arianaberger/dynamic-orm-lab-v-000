@@ -63,8 +63,4 @@ class InteractiveRecord
     DB[:conn].execute(sql)
   end
 
-  sql = "SELECT * FROM #{self.table_name} WHERE #{column} = #{data}"
-
-
-
 end
